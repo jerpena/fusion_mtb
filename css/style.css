@@ -73,6 +73,10 @@ nav {
 
 .nav-links a:hover {
   color: var(--accent-color);
+}
+
+.nav-links a:active {
+  color: rgb(201, 180, 152);
   transition: all 0.3s ease;
 }
 
@@ -85,7 +89,7 @@ nav {
   border: 1px solid var(--accent-color);
 }
 
-.intro {
+.showcase {
   font-size: 1.3rem;
   text-align: center;
   text-transform: uppercase;
